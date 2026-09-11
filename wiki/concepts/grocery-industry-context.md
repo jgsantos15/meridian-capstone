@@ -26,4 +26,4 @@ National grocery-sector trends and competitive dynamics relevant to Meridian's s
 ## Investment activity in Meridian's own markets
 - Brixton Capital acquired Quad at Whittier (Vallarta Supermarkets-anchored, Los Angeles) for **$100 million** (314,593 sq. ft., 95.6% leased) — a grocery-anchored center in one of Meridian's own counties, signaling continued investor appetite for grocery-anchored retail in the LA market specifically.
 
-See also: [Meridian Markets](../entities/meridian-markets.md).
+See also: [Meridian Markets](../entities/meridian-markets.md), [Pasadena Expansion](pasadena-expansion.md).
