@@ -2,7 +2,7 @@
 
 Questions to raise with Dana Okafor in the stakeholder interview, seeded from gaps in `raw/client-brief` and `raw/icsc-grocery-sector-trends`. Each entry links to the wiki page whose gap prompted it. As ingests happen (NDA, data extract, interview notes) and a question gets answered, move the answer into that page's content and remove the question from this list — don't let answered questions linger here.
 
-**Sources:** `raw/client-brief`, `raw/icsc-grocery-sector-trends`
+**Sources:** `raw/client-brief`, `raw/icsc-grocery-sector-trends`, `raw/grocerydive-2025-trends-forecast-grading`, `raw/jll-grocery-tracker`
 
 - [ ] **Which stores took off immediately vs. were slower to find their footing — can you name them?**
   The brief states this happened but never identifies which stores. → [Growth Timeline](concepts/growth-timeline.md)
@@ -24,3 +24,9 @@ Questions to raise with Dana Okafor in the stakeholder interview, seeded from ga
 
 - [ ] **Was a smaller-format location considered for Pasadena, rather than a full-size store?**
   Gelson's is piloting 3,000–5,400 sq. ft. micromarkets alongside its full-size stores; worth knowing whether Meridian evaluated a similar option before settling on Pasadena as "the obvious next step." → [Pasadena Expansion](concepts/pasadena-expansion.md)
+
+- [ ] **Is the Pasadena site already identified or under negotiation, or is availability itself a live risk?**
+  Grocery-anchored retail vacancy is near a record low (3.5% nationally) with net new supply near zero for two straight years and rents rising ~3%/year; the longer this decision takes, the harder and costlier good sites get. → [Grocery Industry Context](concepts/grocery-industry-context.md)
+
+- [ ] **Does Meridian carry any private-label products today?**
+  Private label now holds 20.7% national market share and is growing; the brief doesn't mention it as part of Meridian's offering. Worth knowing if that's a deliberate positioning choice or unexplored. → [Grocery Industry Context](concepts/grocery-industry-context.md)
