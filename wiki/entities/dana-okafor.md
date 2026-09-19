@@ -2,7 +2,7 @@
 
 VP of Operations at Meridian Markets, and the primary stakeholder for this engagement.
 
-**Sources:** `raw/client-brief`
+**Sources:** `raw/client-brief.md`
 
 ## Role
 - VP of Operations, Meridian Markets.

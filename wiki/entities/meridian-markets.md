@@ -2,7 +2,7 @@
 
 Specialty grocery chain and the client for this engagement — who they are and how they compete.
 
-**Sources:** `raw/client-brief`
+**Sources:** `raw/client-brief.md`
 
 ## Overview
 - Specialty grocery chain with **14 stores** across Los Angeles, Orange, and Ventura counties.

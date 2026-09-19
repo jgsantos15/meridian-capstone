@@ -2,7 +2,7 @@
 
 How Meridian got from 6 stores to 14, and the project's own timeline.
 
-**Sources:** `raw/client-brief`
+**Sources:** `raw/client-brief.md`
 
 ## Company growth
 - 6 stores → 14 stores over **five years**.

@@ -4,7 +4,7 @@ This document defines how this wiki works: what's immutable, what's AI-owned, an
 
 ## Layers
 
-- **`raw/`** — immutable source documents. Read-only. Never edit, rename, or delete anything here. Currently: `raw/client-brief`. Will grow to include the signed NDA, the POS/loyalty/labor data extract (once released), and interview notes/transcript after the stakeholder interview.
+- **`raw/`** — immutable source documents. Read-only. Never edit, rename, or delete anything here. Currently: `raw/client-brief.md`. Will grow to include the signed NDA, the POS/loyalty/labor data extract (once released), and interview notes/transcript after the stakeholder interview.
 - **`wiki/`** — AI-generated and maintained markdown. Freely created, edited, and regenerated as new raw sources arrive or new questions get answered.
 - **`wiki/SCHEMA.md`** (this file) — governs both layers above. Evolves through collaboration between the user and the AI.
 

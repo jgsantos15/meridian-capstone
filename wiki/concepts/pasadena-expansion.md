@@ -2,7 +2,7 @@
 
 The specific business decision this engagement is meant to inform: whether Pasadena is the right next store location.
 
-**Sources:** `raw/client-brief`, `raw/icsc-grocery-sector-trends`
+**Sources:** `raw/client-brief.md`, `raw/icsc-grocery-sector-trends`
 
 ## The hypothesis
 - Leadership already believes Pasadena is "the obvious next step" for a new store.

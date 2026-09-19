@@ -2,7 +2,7 @@
 
 The confidentiality and process rules governing this engagement, per the client brief and the NDA that follows it.
 
-**Sources:** `raw/client-brief`
+**Sources:** `raw/client-brief.md`
 
 ## NDA
 - An NDA follows the client brief and "covers everything below" in the brief — i.e., all data-handling terms.

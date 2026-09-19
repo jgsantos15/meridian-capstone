@@ -1,8 +1,8 @@
 # Open Questions
 
-Questions to raise with Dana Okafor in the stakeholder interview, seeded from gaps in `raw/client-brief` and `raw/icsc-grocery-sector-trends`. Each entry links to the wiki page whose gap prompted it. As ingests happen (NDA, data extract, interview notes) and a question gets answered, move the answer into that page's content and remove the question from this list — don't let answered questions linger here.
+Questions to raise with Dana Okafor in the stakeholder interview, seeded from gaps in `raw/client-brief.md` and `raw/icsc-grocery-sector-trends`. Each entry links to the wiki page whose gap prompted it. As ingests happen (NDA, data extract, interview notes) and a question gets answered, move the answer into that page's content and remove the question from this list — don't let answered questions linger here.
 
-**Sources:** `raw/client-brief`, `raw/icsc-grocery-sector-trends`, `raw/grocerydive-2025-trends-forecast-grading`, `raw/jll-grocery-tracker`
+**Sources:** `raw/client-brief.md`, `raw/icsc-grocery-sector-trends`, `raw/grocerydive-2025-trends-forecast-grading`, `raw/jll-grocery-tracker`
 
 - [ ] **Which stores took off immediately vs. were slower to find their footing — can you name them?**
   The brief states this happened but never identifies which stores. → [Growth Timeline](concepts/growth-timeline.md)

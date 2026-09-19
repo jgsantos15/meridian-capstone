@@ -2,7 +2,7 @@
 
 What data Meridian has offered to share, and what's known about each source's shape and quality.
 
-**Sources:** `raw/client-brief`
+**Sources:** `raw/client-brief.md`
 
 ## What's on offer
 | Source | Size / shape | Notes |
