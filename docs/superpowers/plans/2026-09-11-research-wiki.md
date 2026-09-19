@@ -10,6 +10,8 @@
 
 **Spec:** `docs/superpowers/specs/2026-09-11-research-wiki-design.md`
 
+**Status (updated 2026-09-19):** Tasks 1–5 complete. Only the final read-through of `wiki/open-questions.md` is left open (a judgment call for the team). The wiki has grown past this plan's scope — three external-source ingests (ICSC, Grocery Dive, JLL) and a query page (`concepts/specialty-grocer-expansion.md`) — so the expected counts in the verification steps below (5 questions, 7 index entries) reflect the initial ingest; the wiki now has 9 questions and 9 pages.
+
 ## Global Constraints
 
 - `raw/` is immutable — no task may create, edit, or move anything under `raw/`.
@@ -35,7 +37,7 @@
 - Consumes: nothing (first task).
 - Produces: the conventions every later task follows (page format, operations, data-handling rule) and the log file Task 5 appends to.
 
-- [ ] **Step 1: Create `wiki/SCHEMA.md`**
+- [x] **Step 1: Create `wiki/SCHEMA.md`**
 
 ```markdown
 # Wiki Schema — Meridian Markets Research Wiki
@@ -95,7 +97,7 @@ This project has an NDA (see `raw/` once it lands) and a companion checklist at 
 Sales totals by store/week and store attributes are cleared for AI-tool use per the checklist and may be described normally in wiki pages.
 ```
 
-- [ ] **Step 2: Create `wiki/log.md`**
+- [x] **Step 2: Create `wiki/log.md`**
 
 ```markdown
 # Wiki Log
@@ -103,7 +105,7 @@ Sales totals by store/week and store attributes are cleared for AI-tool use per 
 Append-only. One line per ingest or notable query, newest entry at the bottom.
 ```
 
-- [ ] **Step 3: Verify both files exist with required sections**
+- [x] **Step 3: Verify both files exist with required sections**
 
 Run:
 ```bash
@@ -117,7 +119,7 @@ Expected: `files exist: OK`, a count of 5 (Layers, Folder structure, Page conven
 **Done looks like:** `wiki/SCHEMA.md` and `wiki/log.md` exist with the exact content above.
 **How you check it:** run the Step 3 commands — all four checks print `OK` / the count 5. Then open `wiki/SCHEMA.md` yourself and confirm it reads clearly to someone with zero context on the project.
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add wiki/SCHEMA.md wiki/log.md
@@ -136,7 +138,7 @@ git commit -m "Scaffold research wiki schema and log"
 - Consumes: `wiki/SCHEMA.md` conventions from Task 1 (page format, link style).
 - Produces: two pages that `wiki/concepts/*.md` (Task 3), `wiki/open-questions.md` (Task 4), and `wiki/index.md` (Task 5) link to as `../entities/meridian-markets.md` and `../entities/dana-okafor.md` (or `entities/...` from `index.md`/`open-questions.md` at the wiki root).
 
-- [ ] **Step 1: Create `wiki/entities/meridian-markets.md`**
+- [x] **Step 1: Create `wiki/entities/meridian-markets.md`**
 
 ```markdown
 # Meridian Markets
@@ -159,7 +161,7 @@ Specialty grocery chain and the client for this engagement — who they are and 
 See also: [Growth Timeline](../concepts/growth-timeline.md), [Pasadena Expansion](../concepts/pasadena-expansion.md).
 ```
 
-- [ ] **Step 2: Create `wiki/entities/dana-okafor.md`**
+- [x] **Step 2: Create `wiki/entities/dana-okafor.md`**
 
 ```markdown
 # Dana Okafor
@@ -186,7 +188,7 @@ VP of Operations at Meridian Markets, and the primary stakeholder for this engag
 See also: [Growth Timeline](../concepts/growth-timeline.md), [Terms of Engagement](../concepts/terms-of-engagement.md).
 ```
 
-- [ ] **Step 3: Verify both pages exist with required structure**
+- [x] **Step 3: Verify both pages exist with required structure**
 
 Run:
 ```bash
@@ -199,7 +201,7 @@ Expected: both files print `OK`.
 **Done looks like:** both entity pages exist, each opening with a purpose line and a `**Sources:**` line, containing the facts listed above.
 **How you check it:** run the Step 3 command (both print `OK`), then read both pages and confirm every fact matches `raw/client-brief` (14 stores, $78M, 620 employees, 6→14 in five years, Dana's role and availability).
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add wiki/entities/meridian-markets.md wiki/entities/dana-okafor.md
@@ -220,7 +222,7 @@ git commit -m "Ingest client brief: entity pages"
 - Consumes: `wiki/SCHEMA.md` conventions (Task 1); links to `wiki/entities/meridian-markets.md` and `wiki/entities/dana-okafor.md` (Task 2) as `../entities/....md`; references `docs/data-handling-checklist.md` (existing file from a prior task, unchanged).
 - Produces: four pages that `wiki/open-questions.md` (Task 4) and `wiki/index.md` (Task 5) link to as `concepts/<name>.md`.
 
-- [ ] **Step 1: Create `wiki/concepts/data-sources.md`**
+- [x] **Step 1: Create `wiki/concepts/data-sources.md`**
 
 ```markdown
 # Data Sources
@@ -251,7 +253,7 @@ Per `docs/data-handling-checklist.md`:
 See also: [Open Questions](../open-questions.md).
 ```
 
-- [ ] **Step 2: Create `wiki/concepts/terms-of-engagement.md`**
+- [x] **Step 2: Create `wiki/concepts/terms-of-engagement.md`**
 
 ```markdown
 # Terms of Engagement
@@ -277,7 +279,7 @@ The confidentiality and process rules governing this engagement, per the client 
 See also: [Data Sources](data-sources.md), [Dana Okafor](../entities/dana-okafor.md).
 ```
 
-- [ ] **Step 3: Create `wiki/concepts/pasadena-expansion.md`**
+- [x] **Step 3: Create `wiki/concepts/pasadena-expansion.md`**
 
 ```markdown
 # Pasadena Expansion
@@ -300,7 +302,7 @@ This is the decision the whole engagement is oriented around. Understanding exac
 See also: [Meridian Markets](../entities/meridian-markets.md), [Dana Okafor](../entities/dana-okafor.md).
 ```
 
-- [ ] **Step 4: Create `wiki/concepts/growth-timeline.md`**
+- [x] **Step 4: Create `wiki/concepts/growth-timeline.md`**
 
 ```markdown
 # Growth Timeline
@@ -321,7 +323,7 @@ How Meridian got from 6 stores to 14, and the project's own timeline.
 See also: [Meridian Markets](../entities/meridian-markets.md), [Pasadena Expansion](pasadena-expansion.md).
 ```
 
-- [ ] **Step 5: Verify all four pages exist with required structure**
+- [x] **Step 5: Verify all four pages exist with required structure**
 
 Run:
 ```bash
@@ -334,7 +336,7 @@ Expected: all four files print `OK`.
 **Done looks like:** all four concept pages exist, each opening with a purpose line and a `**Sources:**` line, and each references `docs/data-handling-checklist.md` or `raw/client-brief` accurately.
 **How you check it:** run the Step 5 command (four `OK` lines), then read each page against `raw/client-brief` for factual accuracy, and click through each cross-reference link to confirm it resolves to a real file (entity pages exist from Task 2; `open-questions.md` will exist after Task 4 — recheck those two specific links once Task 4 lands).
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 git add wiki/concepts/data-sources.md wiki/concepts/terms-of-engagement.md wiki/concepts/pasadena-expansion.md wiki/concepts/growth-timeline.md
@@ -352,7 +354,7 @@ git commit -m "Ingest client brief: concept pages"
 - Consumes: links to `wiki/concepts/growth-timeline.md`, `wiki/concepts/pasadena-expansion.md`, `wiki/concepts/data-sources.md` (Task 3).
 - Produces: the living page that `wiki/index.md` (Task 5) links to, and that the entity/concept pages already link back to as `../open-questions.md`.
 
-- [ ] **Step 1: Create `wiki/open-questions.md`**
+- [x] **Step 1: Create `wiki/open-questions.md`**
 
 ```markdown
 # Open Questions
@@ -377,7 +379,7 @@ Questions to raise with Dana Okafor in the stakeholder interview, seeded from ga
   The brief mentions the migration positively but doesn't address continuity risk. → [Data Sources](concepts/data-sources.md)
 ```
 
-- [ ] **Step 2: Verify the page exists with all five questions**
+- [x] **Step 2: Verify the page exists with all five questions**
 
 Run:
 ```bash
@@ -389,7 +391,7 @@ Expected: `file exists: OK` and a count of `5`.
 **Done looks like:** `wiki/open-questions.md` exists with exactly the five seeded questions above, each linking to the concept page whose gap prompted it.
 **How you check it:** run the Step 2 command (`OK` and count `5`), then click each of the five links and confirm they resolve to the concept pages created in Task 3.
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 
 ```bash
 git add wiki/open-questions.md
@@ -408,7 +410,7 @@ git commit -m "Seed open questions for stakeholder interview"
 - Consumes: every page created in Tasks 1–4 (links to all of them).
 - Produces: nothing further downstream — this is the closing task of the initial ingest.
 
-- [ ] **Step 1: Create `wiki/index.md`**
+- [x] **Step 1: Create `wiki/index.md`**
 
 ```markdown
 # Index
@@ -429,7 +431,7 @@ Catalog of every page in this wiki, grouped by category. Update this whenever a 
 - [Open Questions](open-questions.md) — questions to raise with Dana Okafor in the stakeholder interview.
 ```
 
-- [ ] **Step 2: Append the ingest entry to `wiki/log.md`**
+- [x] **Step 2: Append the ingest entry to `wiki/log.md`**
 
 Add this line to the end of `wiki/log.md`, after the header:
 
@@ -437,7 +439,7 @@ Add this line to the end of `wiki/log.md`, after the header:
 - 2026-09-11 — Ingested `raw/client-brief`; created 6 pages (2 entities, 4 concepts) and seeded `open-questions.md` with 5 questions.
 ```
 
-- [ ] **Step 3: Verify the catalog and log**
+- [x] **Step 3: Verify the catalog and log**
 
 Run:
 ```bash
@@ -447,7 +449,7 @@ grep -q "2026-09-11" wiki/log.md && echo "log entry present: OK"
 ```
 Expected: `index exists: OK`, a count of `7` (6 pages + open-questions), `log entry present: OK`.
 
-- [ ] **Step 4: Check every link in the wiki resolves**
+- [x] **Step 4: Check every link in the wiki resolves**
 
 Run:
 ```bash
@@ -467,7 +469,7 @@ Expected: no `BROKEN LINK` lines, just `link check complete`.
 **Done looks like:** `wiki/index.md` lists all 7 pages grouped correctly, `wiki/log.md` has the ingest entry appended after its header, and every markdown link across the wiki resolves to a real file.
 **How you check it:** run Steps 3–4's commands (all `OK`/expected counts, no broken links), then open `wiki/index.md` and confirm each linked page's one-line description actually matches that page's content.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add wiki/index.md wiki/log.md
@@ -478,8 +480,8 @@ git commit -m "Finalize wiki index and log entry for initial ingest"
 
 ## Final verification (whole plan)
 
-- [ ] Run the full link check from Task 5, Step 4 one more time against the final state of `wiki/`.
-- [ ] Confirm `git log --oneline -5` shows five commits, one per task, and `git status` is clean.
+- [x] Run the full link check from Task 5, Step 4 one more time against the final state of `wiki/`. *(Re-run 2026-09-19: only hit is the illustrative example link in `SCHEMA.md`, not a real broken link.)*
+- [x] Confirm `git log --oneline -5` shows five commits, one per task, and `git status` is clean. *(All five task commits are in history; later ingests have added more commits since, so `-5` no longer shows only those.)*
 - [ ] Read `wiki/open-questions.md` end to end as if prepping for the interview tomorrow — confirm it reads as immediately useful, not just a mechanical gap list.
 
 **Done looks like:** a clean working tree, five commits, zero broken links, and an open-questions page you'd actually walk into the interview with.
