@@ -12,6 +12,7 @@ Catalog of every page in this wiki, grouped by category. Update this whenever a 
 - [Pasadena Expansion](concepts/pasadena-expansion.md) — the next-site decision this engagement is meant to inform, including relevant market context.
 - [Growth Timeline](concepts/growth-timeline.md) — company growth history and the engagement's own timeline.
 - [Grocery Industry Context](concepts/grocery-industry-context.md) — national grocery-sector trends, competitive positioning, and a close comparable (Gelson's), from external market research.
+- [Specialty Grocer Expansion](concepts/specialty-grocer-expansion.md) — where specialty grocers are opening, nationally and in Meridian's Southern California market; filed in answer to a direct research question.
 
 ## Living pages
 - [Open Questions](open-questions.md) — questions to raise with Dana Okafor in the stakeholder interview.
